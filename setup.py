@@ -25,7 +25,7 @@ setup(
     py_modules=['pytest_vcr'],
     install_requires=[
         'pytest>=3.6.0',
-        'vcrpy @ git+https://github.com/shcherbak-ai/vcrpy.git@master#egg=vcrpy',
+        'vcrpy @ git+https://github.com/shcherbak-ai/vcrpy.git@master',
     ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
