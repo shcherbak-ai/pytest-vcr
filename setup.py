@@ -23,7 +23,10 @@ setup(
     description='Plugin for managing VCR.py cassettes',
     long_description=read('README.rst'),
     py_modules=['pytest_vcr'],
-    install_requires=['pytest>=3.6.0', 'vcrpy'],
+    install_requires=[
+        'pytest>=3.6.0',
+        'vcrpy @ git+https://github.com/shcherbak-ai/vcrpy.git@master#egg=vcrpy',
+    ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Framework :: Pytest',
